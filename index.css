@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 1450px;
+}
+
+@media screen and (max-width: 1200px) 
+{
+    .container{
+        width: 960px;
+    }
+
+    .required-container{
+        width: 960px;
+    }
+
+    .form-block form{
+        width: 100%;
+    }
+
+    .form-block form input{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media screen and (max-width: 992px) 
+{
+    .container{
+        width: 720px;
+        padding-bottom: 20px;
+    }
+
+    .main-banners{
+        flex-direction: column;
+    }
+
+    .info-banner{
+        width: 100%;
+    }
+
+    .info-banner{
+        width: 100%;
+    }
+
+    .main-banners .info-banner .more{
+        margin: 0 auto 0 auto;
+    }
+
+    .image-banner{
+        margin-top: 20px;
+        width: 55%;
+        height: 50%;
+    }
+
+    .required-container{
+        width: 720px;
+    }
+
+    .form-block form{
+        width: 100%;
+    }
+
+    .form-block form input{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) 
+{
+    .container{
+        width: 540px;
+    }
+
+    .main-banners{
+        flex-direction: column;
+    }
+
+    .info-banner{
+        width: 100%;
+    }
+
+    .info-banner .more{
+        height: 40px;
+        margin: 0 auto 0 auto;
+    }
+
+    .required-container{
+        width: 540px;
+    }
+
+    .form-block form{
+        width: 100%;
+    }
+
+    .form-block form input{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) 
+{
+
+}
+
+
+.container{
+    background: linear-gradient(rgb(170, 218, 251), rgb(118, 213, 245));
+    position: absolute;
+    z-index: 5;
+}
+
+.main-banners{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 20px auto 0 auto;
+}
+
+.main-banners .info-banner h1{
+    width: 100%;
+    color: white;
+    font-weight: 500;
+}
+
+.main-banners .info-banner h1 .bolder{
+    font-weight: bolder;
+}
+
+.main-banners .info-banner p{
+    color: white;
+    width: 95%;
+}
+
+.main-banners .info-banner button{
+    background-color: rgb(255, 187, 42);
+    width: 55%;
+    height: 12%;
+    border: none;
+    font-size: 16px;
+}
+
+.required-container{
+    position: relative;
+    width: 100%;
+    top: 600px;
+    background-color: white;
+    z-index: 4;
+    padding-bottom: 50px;
+}
+
+.required-blocks .required-blocks-main{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.required-blocks .required-blocks-list{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    height: 75%;
+}
+
+.required-blocks .required-blocks-list p{
+    color: rgb(111, 111, 111);
+}
+
+.required-blocks .required-blocks-list .first-block{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.required-blocks .required-blocks-list .second-block{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.required-blocks .required-blocks-list .third-block{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.form-container{
+    position: relative;
+    top: 600px;
+}
+
+#form {
+    width: 100%;
+    margin: auto;
+}
+
+.order {
+    padding-top: 20px;
+}
+
+#sendOrder {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(248, 146, 38);
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+    #sendOrder:hover {
+        cursor: pointer;
+    }
+
+.orderInfo {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.orderSummary {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.form-block{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 600px;
+    background-color: rgb(222, 222, 222);
+    padding-bottom: 40px;
+    z-index: 3;
+}
+
+.form-block h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form-block form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px auto 0 auto;
+}
+
+.form-block form input{
+    margin-top: 20px;
+    height: 30px;
+    border: 2px solid gray;
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
+
+.form-block form button{
+    background-color: rgb(255, 187, 42);
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    margin: 20px auto 0 auto;
+}
+
+.footer{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 600px;
+    background: linear-gradient(rgb(32, 162, 248), rgb(118, 213, 245));
+    color: white;
+    height: 120px;
+    width: 100%;
+}
+
+.footer .def{
+    position: relative;
+    top: 60px;
+}
